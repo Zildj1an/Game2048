@@ -13,8 +13,6 @@ import tp.pr3.exceptions.gameOverExceptions.GameOverExceptions;
  * Desde esta clase controlaremos el juego ejecutando los comandos que
  * introduzca el usuario.
  * 
- * @author Carlos Bilbao
- * @author ¡lvaro LÛpez
  *
  */
 public class Controller {
@@ -27,8 +25,8 @@ public class Controller {
 	}
 
 	/**
-	 * Este mÈtodo har· que el juego estÈ en funcionamiento. Leer· los comandos y
-	 * los ejecutar·, imprimir· el tablero y comprobar· si el jugador ha ganado o
+	 * Este m√©todo har√° que el juego est√© en funcionamiento. Leer√° los comandos y
+	 * los ejecutar√°, imprimir√° el tablero y comprobar√° si el jugador ha ganado o
 	 * perdido la partida.
 	 */
 	public void run() {
