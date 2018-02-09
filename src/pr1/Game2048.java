@@ -1,4 +1,3 @@
-//Authors ¡lvaro LÛpez and Carlos Bilbao from 2∫I
 package tp.pr1;
 
 import java.util.Random;
@@ -12,16 +11,13 @@ import tp.pr3.exceptions.gameOverExceptions.LoseException;
 import tp.pr3.exceptions.newGameExceptions.TooCellsException;
 
 /**
- * Esta ser· nuestra clase principal, en la que podremos jugar al popular juego
+ * Esta ser√° nuestra clase principal, en la que podremos jugar al popular juego
  * 2048 y a distintas versiones derivadas de este.
- * 
- * @author Carlos Bilbao
- * @author ¡lvaro LÛpez
  */
 public class Game2048 {
 
 	/**
-	 * Este ser· el main, el mÈtodo principal en el que comenzaremos el juego con
+	 * Este ser√° el main, el m√©todo principal en el que comenzaremos el juego con
 	 * los argumentos introducidos por el usuario.
 	 * 
 	 * @param args
