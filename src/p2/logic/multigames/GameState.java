@@ -1,24 +1,21 @@
 package tp.p2.logic.multigames;
 
 /**
- * Esta clase ser· usada para almacenar estados del juego.
- * 
- * @author Carlos Bilbao
- * @author ¡lvaro LÛpez
+ * Esta clase ser√° usada para almacenar estados del juego.
  */
 public class GameState {
 	private int score;
 	private int[][] boardState;
 
 	/**
-	 * AquÌ crearemos una instancia de la clase GameState.
+	 * Aqu√≠ crearemos una instancia de la clase GameState.
 	 */
 	public GameState() {
 		score = 0;
 	}
 
 	/**
-	 * AquÌ guardaremos la puntuaciÛn de estado.
+	 * Aqu√≠ guardaremos la puntuaci√≥n de estado.
 	 * 
 	 * @param value
 	 */
@@ -27,7 +24,7 @@ public class GameState {
 	}
 
 	/**
-	 * Con este mÈtodo obtendremos la puntuaciÛn de un estado.
+	 * Con este m√©todo obtendremos la puntuaci√≥n de un estado.
 	 * 
 	 * @return
 	 */
@@ -36,7 +33,7 @@ public class GameState {
 	}
 
 	/**
-	 * Este mÈtodo devolver· una matriz de n˙meros enteros con los valores de las
+	 * Este m√©todo devolver√° una matriz de n√∫meros enteros con los valores de las
 	 * celdas del tablero.
 	 * 
 	 * @return
@@ -46,7 +43,7 @@ public class GameState {
 	}
 
 	/**
-	 * Este mÈtodo almacenar· la matriz de n˙meros enteros con los valores de las
+	 * Este m√©todo almacenar√° la matriz de n√∫meros enteros con los valores de las
 	 * celdas del tablero en el estado.
 	 * 
 	 * @param boardState
